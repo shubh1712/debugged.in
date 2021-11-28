@@ -1,0 +1,303 @@
+@media only screen and (max-width: 1520px) {
+  .cards-cont {
+    padding: 2% 8%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .custom-card {
+    height: 32rem;
+    width: 87%;
+    margin-top: 2rem;
+  }
+
+  /* about us  */
+  .card {
+    width: 52.8125rem;
+    height: 27.25rem;
+  }
+}
+@media only screen and (max-width: 1288px) {
+  #left-container .logo-name {
+    margin-top: 12rem;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+  }
+  .cards-cont {
+    padding: 2% 6%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .custom-card {
+    height: 32rem;
+    width: 87%;
+    margin-top: 2rem;
+  }
+
+  /* about us  */
+  .card {
+    width: 40.8125rem;
+    height: 23.25rem;
+  }
+}
+@media only screen and (max-width: 1161px) {
+  #left-container .logo-name {
+    margin-top: 12rem;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .cards-cont {
+    padding: 2% 8%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .custom-card {
+    height: 33rem;
+    width: 80%;
+    margin-top: 5rem;
+  }
+}
+@media only screen and (max-width: 1084px) {
+  .cards-cont {
+    padding: 2% 8%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .custom-card {
+    height: 32rem;
+    width: 87%;
+    margin-top: 5rem;
+  }
+
+  /* about us  */
+  .card {
+    width: 32.8125rem;
+    height: 20.25rem;
+  }
+  .card-data {
+    margin: 0.7rem 0.7rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .navbar {
+    position: static;
+    width: 100%;
+    background-color: #ffffffd5;
+    /* position: fixed; */
+    z-index: 100000;
+  }
+  .landing {
+    height: 50%;
+    width: 100%;
+    background-color: #4fa996;
+    position: relative;
+    display: block;
+    top: -12rem;
+    justify-content: center;
+    text-align: center;
+  }
+  #left-container {
+    margin-top: 5rem;
+    width: 100%;
+    z-index: 1;
+    justify-content: center;
+    text-align: center;
+  }
+  #left-container .logo-name {
+    padding-top: 2rem;
+  }
+  #right-container {
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    margin-top: 2rem;
+  }
+
+  .cards-cont {
+    padding: 2% 7%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .custom-card {
+    height: 30rem;
+    width: 87%;
+    margin-top: 5rem;
+  }
+
+  /* about us  */
+  .card {
+    width: 32.8125rem;
+    height: 20.25rem;
+  }
+  .card-data {
+    margin: 0.5rem 0.5rem;
+  }
+  #tech {
+    /* background: #212534; */
+    background-color: #00f4c0;
+    position: relative;
+    top: -12rem;
+    justify-content: space-around;
+    text-align: center;
+  }
+  #about-us {
+    background-color: #8ed3f0;
+    height: 100vh;
+    position: relative;
+    top: -12rem;
+  }
+
+  #heading-2 {
+    position: relative;
+    top: 2rem;
+    color: #212534;
+    font-family: "Krona One", sans-serif;
+    justify-content: center;
+    text-align: center;
+    /* background-color: rgb(36, 36, 36); */
+  }
+
+  .about-carousel {
+    position: relative;
+    top: 12rem;
+  }
+  #contact-us {
+    position: relative;
+    top: -12rem;
+    background-color: #000;
+    color: white;
+    height: 100%;
+  }
+  .contact-us-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    padding-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .custom-class-1 {
+    display: block;
+  }
+  .cards-cont {
+    padding: 2% 10rem;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .navlinks ul {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .hamburger {
+    display:none;
+    transition: all 2s;
+  }
+  /* .navbar {
+  } */
+  .custom-card {
+    height: 30rem;
+    width: 87%;
+    margin-top: 5rem;
+  }
+
+  /* about us  */
+  .card {
+    width: 32.8125rem;
+    height: 20.25rem;
+  }
+  .card-data {
+    margin: 0.5rem 0.5rem;
+  }
+}
+@media only screen and (max-width: 645px) {
+  .cards-cont {
+    padding: 2rem 5rem;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .custom-card {
+    height: 30rem;
+    width: 87%;
+    margin-top: 5rem;
+  }
+
+  /* about us  */
+  .card {
+    width: 32.8125rem;
+    height: 20.25rem;
+  }
+  .card-data {
+    margin: 0.5rem 0.5rem;
+  }
+}
+@media only screen and (max-width: 542px) {
+  .cards-cont {
+    padding: 2rem 5rem;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .custom-card {
+    height: 30rem;
+    width: 87%;
+    margin-top: 5rem;
+  }
+
+  /* about us  */
+  .card {
+    width: 28.8125rem;
+    height: 20.25rem;
+  }
+  .card-data {
+    margin: 0.5rem 0.5rem;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .cards-cont {
+    padding: 2rem 0rem;
+    justify-content: center;
+    text-align: center;
+    display: block;
+  }
+  .custom-card {
+    height: 30rem;
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  /* about us  */
+  .card {
+    width: 25.8125rem;
+    height: 20.25rem;
+  }
+  .card-data {
+    margin: 0.5rem 0.5rem;
+  }
+  .contact-us-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  #left-container .logo-name {
+    font-size: 2rem;
+  }
+}
