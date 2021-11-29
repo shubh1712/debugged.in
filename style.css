@@ -19,6 +19,10 @@
   box-sizing: border-box;
 }
 
+body
+{
+  background-color: #000;
+}
 /* hamburger menu  */
 
 .custom-class-1 
@@ -163,7 +167,7 @@ ul li a:hover::after
 {
   height: 90%;
   width: 100%;
-  background-color: #4fa996;
+  background-color: #6d6ec0;
   position: relative;
   display: flex;
   top: 4rem;
@@ -239,7 +243,7 @@ ul li a:hover::after
 #tech 
 {
   /* background: #212534; */
-  background-color:#00f4c0;
+  background-color:#3234ae;
   position: relative;
   top: 4rem;
   justify-content: space-around;
@@ -322,9 +326,10 @@ ul li a:hover::after
 
 #about-us
 {
-  background-color:#8ed3f0;
+  background-color:#775bda;
   position: relative;
   top: 3rem;
+  overflow: hidden;
 }
 
 #heading-2
@@ -352,6 +357,7 @@ ul li a:hover::after
   text-align: center;
   align-items: center;
   border: 15px grey;
+  font-family: "Comfortaa", cursive;
 }
 
 .left-img
@@ -369,11 +375,14 @@ ul li a:hover::after
 .right-info
 {
   width: 60%;
+  padding: 5rem;
 }
 
 .left-info 
 {
   width: 60%;
+  padding: 5rem;
+
 }
 
 .right-img
@@ -468,5 +477,5 @@ ul li a:hover::after
 {
   width: 100%;
   background-color: #000;
-  
+
 }

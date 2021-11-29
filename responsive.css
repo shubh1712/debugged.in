@@ -1,10 +1,6 @@
 @media only screen and (max-width: 1520px) {
   .cards-cont {
     padding: 2% 8%;
-    justify-content: center;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
   }
   .custom-card {
     height: 32rem;
@@ -44,6 +40,68 @@
   }
 }
 @media only screen and (max-width: 1161px) {
+  .about-us-container
+{
+  padding-top:10rem ;
+}
+
+.about-us-inner-cont
+{
+  display: flex ;
+  height: 50%;
+  padding: 2rem 5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 15px grey;
+  font-family: "Comfortaa", cursive;
+}
+
+
+
+.left-img img 
+{
+  width: 80%;
+  height: 100%;
+  border-radius: 5rem;
+}
+
+.right-info
+{
+  padding: 1rem;
+}
+
+.left-info 
+{
+  width: 60%;
+  padding: 1rem;
+
+}
+
+.right-img
+{
+  width: 40%;
+}
+
+.right-img img
+{
+  width: 80%;
+  height: 100%;
+  border-radius: 5rem;
+} 
+
+  .about-us-inner-cont
+{
+  height: 100%;
+  padding: 2rem 5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 15px grey;
+  font-family: "Comfortaa", cursive;
+}
+
+
   #left-container .logo-name {
     margin-top: 12rem;
     font-size: 3rem;
@@ -64,6 +122,7 @@
   }
 }
 @media only screen and (max-width: 1084px) {
+
   .cards-cont {
     padding: 2% 8%;
     justify-content: center;
@@ -78,26 +137,70 @@
   }
 
   /* about us  */
-  .card {
-    width: 32.8125rem;
-    height: 20.25rem;
-  }
-  .card-data {
-    margin: 0.7rem 0.7rem;
-  }
 }
 @media only screen and (max-width: 950px) {
+  .about-us-container
+{
+  padding-top:2rem ;
+}
+
+.about-us-inner-cont
+{
+  display: flex ;
+  height: 50%;
+  padding: 1rem 0rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 15px grey;
+  font-family: "Comfortaa", cursive;
+}
+
+.left-img
+{
+  width: 40%;
+}
+
+.left-img img 
+{
+  width: 80%;
+  height: 100%;
+  border-radius: 2rem;
+}
+
+.right-info
+{
+  width: 60%;
+  padding: 0rem;
+}
+
+.left-info 
+{
+  width: 60%;
+  padding: 0rem;
+
+}
+
+.right-img
+{
+  width: 40%;
+}
+
+.right-img img
+{
+  width: 80%;
+  height: 100%;
+  border-radius: 2rem;
+} 
+
+  
   .navbar {
     position: static;
     width: 100%;
-    background-color: #ffffffd5;
-    /* position: fixed; */
-    z-index: 100000;
   }
   .landing {
     height: 50%;
     width: 100%;
-    background-color: #4fa996;
     position: relative;
     display: block;
     top: -12rem;
@@ -135,24 +238,17 @@
   }
 
   /* about us  */
-  .card {
-    width: 32.8125rem;
-    height: 20.25rem;
-  }
-  .card-data {
-    margin: 0.5rem 0.5rem;
-  }
+
   #tech {
     /* background: #212534; */
-    background-color: #00f4c0;
     position: relative;
     top: -12rem;
     justify-content: space-around;
     text-align: center;
   }
   #about-us {
-    background-color: #8ed3f0;
-    height: 100vh;
+
+    height: 100%;
     position: relative;
     top: -12rem;
   }
@@ -187,6 +283,58 @@
 }
 
 @media only screen and (max-width: 772px) {
+  .about-us-container
+{
+  padding-top:2rem ;
+}
+
+.about-us-inner-cont
+{
+  display: block;
+  height: 100%;
+  padding: 1rem 2rem;
+  border: 15px grey;
+  font-family: "Comfortaa", cursive;
+}
+
+.left-img
+{
+  width: 100%;
+}
+
+.left-img img 
+{
+  width: 100%;
+  height: 50%;
+  border-radius: 5rem;
+}
+
+.right-info
+{
+  width: 100%;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.left-info 
+{
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+}
+
+.right-img
+{
+  width: 100%;
+}
+
+.right-img img
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 5rem;
+} 
+
   .custom-class-1 {
     display: block;
   }
@@ -202,9 +350,12 @@
     justify-content: center;
     text-align: center;
   }
+  .navlinks ul li {
+      line-height: 2rem;
+  }
   .hamburger {
     display:none;
-    transition: all 2s;
+    transition: display 2s;
   }
   /* .navbar {
   } */
@@ -271,10 +422,11 @@
 }
 @media only screen and (max-width: 481px) {
   .cards-cont {
-    padding: 2rem 0rem;
+    padding: 2rem 2rem;
     justify-content: center;
     text-align: center;
     display: block;
+
   }
   .custom-card {
     height: 30rem;
