@@ -283,6 +283,10 @@
 }
 
 @media only screen and (max-width: 772px) {
+  .custom-class-1{
+
+    color: white;
+  }
   .about-us-container
 {
   padding-top:2rem ;
@@ -351,11 +355,14 @@
     text-align: center;
   }
   .navlinks ul li {
-      line-height: 2rem;
+    line-height: 2rem;
+  }
+  .navbar {
+    display: none;
+    transition:display 2s;
   }
   .hamburger {
-    display:none;
-    transition: display 2s;
+    display : block;
   }
   /* .navbar {
   } */
