@@ -194,18 +194,25 @@ ul li a:hover::after
 
 .slogan 
 {
-  padding: 5%;
+  padding: 5% 8%;
   font-family: "Comfortaa", cursive;
+  text-align: left;
+  color: #000000;
 }
 
 .custom-btn 
 {
-  background-color: #000;
+  background-color: rgb(114, 0, 0);
   color: white;
   border-radius: 0.4rem;
   padding: 01rem 2rem;
   cursor: pointer;
   text-decoration: none;
+  transition: all 0.3s;
+}
+.custom-btn:hover
+{
+  background-color: rgb(26, 0, 99);
 }
 
 #right-container 
@@ -376,13 +383,16 @@ ul li a:hover::after
 {
   width: 60%;
   padding: 5rem;
+  line-height:1.5rem; 
+  text-align: left;
 }
 
 .left-info 
 {
   width: 60%;
   padding: 5rem;
-
+  line-height:1.5rem; 
+  text-align: left;
 }
 
 .right-img
