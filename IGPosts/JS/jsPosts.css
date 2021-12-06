@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Comfortaa:wght@700&family=Courier+Prime&family=Krona+One&family=Righteous&family=Roboto+Mono:wght@300&family=Tourney:wght@500&family=Work+Sans:wght@300&display=swap');
+
+
+
+body
+{
+    background-color: #6d6ec0;
+    font-family: "Comfortaa", cursive;
+}
+.error
+{
+    position: relative;
+    top: 10rem;
+    background-color: #6d6ec0;
+    justify-content:center ;
+    text-align: center;
+}
+h1 {
+    color:yellow;
+}
+p{
+    color: yellow;
+    line-height: 5em;
+}
